@@ -5,7 +5,7 @@ pool:
   vmImage: "Ubuntu-16.04"
 
 variables:
-  imageName: "data-api:$(build.buildId)"
+  imageName: "data-api:latest"
 
 steps:
   - script: |
